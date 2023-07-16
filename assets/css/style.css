@@ -1,4 +1,26 @@
-/* Зовнішні стилі */
+/* Селектор типу (тегу) - 0001 */
 h1 {
   color: blue;
 }
+
+/* Каскадність якщо одна і тама сама властивість визначена для одного і того */
+
+/* Селектор класу - 0010*/
+.annotation {
+  font-size: 10px;
+}
+p {
+  font-size: 20px;
+}
+
+/* Селектор ідентифікатора - 0100*/
+#subscribe-btn {
+  color: red;
+}
+
+/* Селектори - три види запису: */
+/* subscribe-btn : cebab-case
+subscribeBtn : camelCase (loverCamelCase,
+                          UpperCamelCase (PascalCase)
+                          )
+subscribe_btn : snake_case                         */
