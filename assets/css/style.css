@@ -1,21 +1,35 @@
-/* Селектор типу (тегу) - 0001 */
-h1 {
-  color: blue;
-  font-family: initial; /*вимикати спадкування*/
-  border: inherit; /*вмикає спадкування*/
-}
-body {
-  font-family: sans-serif;
-  border: 5px red solid;
-  text-align: center;
-  color: darkgray;
+/* Блокова модель */
+p {
+  width: 200px;
+  /* height: 300px; */
+  /* background-color: blanchedalmond; */
+  border: 1px solid red;
+  padding: 20px;
+  margin: 10px;
+  vertical-align: middle;
+  display: inline-block;
+  /* text-align: right; */
 }
 
-p {
-  font-family: monospace;
-}
-/* use case */
 a {
+  width: 100px;
+  height: 50px;
+  border: 1px green;
+  padding: 20px;
+  margin: 10px;
+
+  display: inline-block;
+  /* vertical-align: initial; */
+}
+
+/* display: inline-block; - стають поряд, як рядкові, і мають однакову відстань */
+
+/* приклад */
+/* a {
   color: inherit;
   text-decoration: none;
-}
+} */
+
+/* .nav-link-item {
+  display: inline;
+} */
