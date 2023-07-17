@@ -1,9 +1,21 @@
-/* Зовнішні стилі */
-/* Селектор : властивість : значення */
+/* Селектор тегу (типу) */
 h1 {
   color: blue;
 }
 
-/* Каскадність - якщо одна і та сама властивість визначена для
-одного і того самого селектора, то пріоритетна та, що
-оголошена останньою */
+/* Селектор класу */
+.annotation {
+  font-size: 10px;
+}
+
+/* Селектор ідентифікатора */
+#subscribe-btn {
+  color: red;
+}
+
+/* subscribe-btn: cebab-case;
+subscribebtn: camelCase;
+              lowerCamelCase (з маленької літери)
+              UpperCamelCase (з великої лтери) - PascalCase
+subscribe_btn : snake-case               */
+/* I_AM_CONSTANT - так пишуться константи */
