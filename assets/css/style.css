@@ -1,24 +1,40 @@
-h1 {
-  color: blue;
-  font-family: initial; /* вимикає спадковість */
-  border: inherit; /* вмикає спадкування */
-}
-
+/* Блокова модель */
 body {
-  font-family: sans-serif;
-  border: 5px red solid;
-  text-align: center;
-  color: darkgray;
+  /* text-align: right; */
 }
 
 p {
-  font-family: monospace;
+  width: 200px;
+  /* height: 300px; */
+  /* background-color: blanchedalmond; */
+  border: 1px solid red;
+  padding: 20px;
+  margin: 10px;
+
+  display: inline-block;
+  /* text-align: initial; */
+  vertical-align: middle;
 }
 
-/* use case - варіант використання */
+a {
+  width: 100px;
+  height: 50px;
+  border: 1px solid green;
+  padding: 20px;
+  margin: 10px;
+
+  display: inline-block;
+}
+
+display: inline-block;
+/* - стають поряд, як рядкові, і мають розміри, як блокові */
+
+/* Приклад  */
 a {
   color: inherit;
   text-decoration: none;
 }
 
-/* Спадкування - властивості для тексту успадковуються */
+.nav-link-item {
+  display: inline;
+}
